@@ -40,7 +40,11 @@
         .navigation {
             font-weight: bold;
             font-size: large;
-            text-align: center;
+            padding-left: 50%;
+            /*ask shacked if there's a better way to center my content*/
+
+            display: flex;
+            gap: 1rem;
 
         }
 
@@ -55,6 +59,8 @@
 
         .allprojects {
             padding-left: 100px;
+            padding-right: 100px;
+            /*is this the best method of styling?*/
             width: 50;
         }
 
@@ -66,8 +72,8 @@
 
 <body>
     <div class="navigation">
-        <p>Work</p>
-        <p>Resume</p>
+        <a href="https://www.w3schools.com/" target="_self">Work</a>
+        <a href="https://www.w3schools.com/" target="_self">About</a>
     </div>
 
     <!-- <h1>Betty is a creative thinker who troubleshoots the challenges of everyday life through the practices of active
